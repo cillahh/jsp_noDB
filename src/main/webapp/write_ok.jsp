@@ -37,6 +37,6 @@
 </ul>
 
 <br>
-<a href="form.html">[돌아가기]</a>
+<a href="write.html">[돌아가기]</a>
 </body>
 </html>

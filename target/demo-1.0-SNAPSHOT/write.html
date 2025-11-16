@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>학생 신규 등록</title>
+</head>
+<body>
+<h1>학생 신규 등록 폼</h1>
+
+<form action="write_ok.jsp" method="post">
+    <p>
+        <label for="name">이름:</label>
+        <input type="text" id="name" name="student_name" required>
+    </p>
+    <p>
+        <label for="id">학번:</label>
+        <input type="text" id="id" name="student_id" placeholder="예: 20241234">
+    </p>
+    <p>
+        <label for="faculty">학부:</label>
+        <input type="text" id="faculty" name="faculty">
+    </p>
+    <p>
+        <label for="major1">1전공:</label>
+        <input type="text" id="major1" name="major1">
+    </p>
+    <p>
+        <label for="major2">2전공 (선택):</label>
+        <input type="text" id="major2" name="major2">
+    </p>
+    <p>
+        <label for="phone">전화번호:</label>
+        <input type="text" id="phone" name="student_phone" placeholder="예: 010-1234-5678">
+    </p>
+    <p>
+        <input type="submit" value="제출하기">
+        <input type="reset" value="다시작성">
+    </p>
+</form>
+<br>
+<a href="list.jsp">[목록으로 돌아가기]</a>
+</body>
+</html>

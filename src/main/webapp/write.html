@@ -2,10 +2,10 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>학생 정보 입력</title>
+    <title>학생 신규 등록</title>
 </head>
 <body>
-<h1>학생 정보 입력 폼</h1>
+<h1>학생 신규 등록 폼</h1>
 
 <form action="write_ok.jsp" method="post">
     <p>
@@ -18,31 +18,26 @@
     </p>
     <p>
         <label for="faculty">학부:</label>
-        <input type="text" id="faculty" name="faculty" value="소프트웨어융합대학">
+        <input type="text" id="faculty" name="faculty">
     </p>
     <p>
         <label for="major1">1전공:</label>
-        <input type="text" id="major1" name="major1" value="컴퓨터공학부">
+        <input type="text" id="major1" name="major1">
     </p>
     <p>
         <label for="major2">2전공 (선택):</label>
-        <input type="text" id="major2" name="major2" placeholder="없으면 비워두세요">
+        <input type="text" id="major2" name="major2">
     </p>
     <p>
-        <label for="grade">학년:</label>
-        <select id="grade" name="grade">
-            <option value="1">1학년</option>
-            <option value="2">2학년</option>
-            <option value="3">3학년</option>
-            <option value="4">4학년</option>
-            <option value="5">5학년 이상</option>
-        </select>
+        <label for="phone">전화번호:</label>
+        <input type="text" id="phone" name="student_phone" placeholder="예: 010-1234-5678">
     </p>
     <p>
         <input type="submit" value="제출하기">
         <input type="reset" value="다시작성">
     </p>
 </form>
-
+<br>
+<a href="list.jsp">[목록으로 돌아가기]</a>
 </body>
 </html>

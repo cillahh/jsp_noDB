@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=list.jsp">
+    <meta http-equiv="refresh" content="0;url=/list.jsp">
     <title>학생 관리 시스템</title>
 </head>
 <body>
